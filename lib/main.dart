@@ -14,9 +14,6 @@ class MyApp extends StatelessWidget {
     // cuando nuestro widget y ninguno de sus valores cambia en la app
     // se recomienda hacerlo constante
     return const MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Center(
-          child: HomeScreen(),
-        ));
+        debugShowCheckedModeBanner: false, home: HomeScreen());
   }
 }
