@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:counter_app/screens/home_screen.dart';
+import 'package:counter_app/screens/counter_screen.dart';
+// import 'package:counter_app/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
     // cuando nuestro widget y ninguno de sus valores cambia en la app
     // se recomienda hacerlo constante
     return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: HomeScreen());
+        debugShowCheckedModeBanner: false, home: CounterScreen());
   }
 }
